@@ -17,7 +17,7 @@
 </ion-header>
 
 <ion-content padding>
-  <ion-card color="primary" (click)="openNavDetailsPage(item)">
+  <ion-card color="primary" (click)="presentActionSheet()">
 
     <ion-item>
       <ion-label color="dark"> Nº Pedido </ion-label>
@@ -63,7 +63,7 @@
 
   </ion-card>
 
-  <ion-card color="danger">
+  <ion-card color="danger" (click)="presentActionSheet()">
 
     <ion-item>
       <ion-label color="dark"> Nº Pedido </ion-label>
@@ -109,7 +109,7 @@
 
   </ion-card>
 
-  <ion-card color="secondary">
+  <ion-card color="secondary" (click)="presentActionSheet()">
 
     <ion-item>
       <ion-label color="dark"> Nº Pedido </ion-label>
